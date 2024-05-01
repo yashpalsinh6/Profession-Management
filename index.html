@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Validation</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<!-- <h2>Form</h2>
+<form id="myForm">
+    <div class="input-row">
+        <label for="name">Enter Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="input-row">
+        <label for="profession">Enter Profession</label>
+        <input type="text" id="profession" name="profession" required>
+    </div>
+    <div class="input-row">
+        <label for="age">Enter Age</label>
+        <input type="number" id="age" name="age" required>
+    </div>
+    <button type="submit" style="display: block">Submit</button>
+</form>
+
+<div id="error-message"></div> -->
+<h2>Add Employee</h2>
+  <form id="employeeForm">
+    <div class="input-row">
+        <label for="name">Enter Name</label>
+        <input type="text" id="name" name="name" class="questions" required>
+    </div>
+    <div class="input-row">
+        <label for="profession">Enter Profession</label>
+        <input type="text" id="profession" name="profession" class="questions" required>
+    </div>
+    <div class="input-row">
+        <label for="age">Enter Age</label>
+        <input type="number" id="age" name="age" class="questions" required>
+    </div>
+    <button type="submit" id="btn" style="display: block" style="background-color: white">Add User</button>
+  </form>
+
+  <div id="errorMessage" class="error" style="display: none;"></div>
+  <div id="successMessage" class="success" style="display: none;"></div>
+
+  <h2>Added Employees</h2>
+  <div id="employeeList"> You have 0 empolyees</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

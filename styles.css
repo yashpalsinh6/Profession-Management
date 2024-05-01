@@ -1,0 +1,46 @@
+.input-row {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    background-color: black;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.input-row label {
+    margin-bottom: 5px;
+}
+
+.input-row input[type="text"],
+.input-row input[type="number"] {
+    width: 200px;
+}
+
+.error {
+    color: red;
+  }
+  .success {
+    color: green;
+  }
+
+
+  body {
+    background-color: black;
+    color: white;
+  }
+
+.questions{
+    background-color: black;
+    border: solid white 1px;
+    border-radius: 5px;
+    padding-top: 10px;
+    color: white;
+}  
+#btn{
+    display: block;
+    background-color: white;
+    padding: 10px;
+    padding-left: 15px ;
+    padding-right: 20px;
+
+}
